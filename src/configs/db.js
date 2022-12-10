@@ -4,6 +4,6 @@ const sequelize= new Sequelize('demo_crud','root','',{
     host:'localhost',
     logging:false
 })
-sequelize.sync({force:true})
+sequelize.sync()
 
 module.exports= sequelize
